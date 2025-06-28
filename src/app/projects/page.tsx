@@ -1,7 +1,7 @@
 import ProjectCard from "@/components/ProjectCard/page";
-import toDoImage from "../../img/todolistPreview.png";
-import beelinePreview from '../../img/beeline-en.svg';
-import socialPulse from '../../img/favicon.png'
+import toDoImage from "@/img/todolistPreview.png";
+import beelinePreview from '@/img/beeline-en.svg';
+import socialPulse from '@/img/favicon.png'
 
 export default function ProjectList() {
     return (

@@ -1,9 +1,9 @@
 import ContactItem from "@/components/Contacts/ContactItem";
-import gMailIcon from "../../img/gmail.svg"
-import tgIcon from "../../img/telegram.svg"
-import vkIcon from "../../img/vk.svg"
-import gitIcon from "../../img/github.svg"
-import leetCodeIcon from "../../img/leetCode.svg"
+import gMailIcon from "@/img/gmail.svg"
+import tgIcon from "@/img/telegram.svg"
+import vkIcon from "@/img/vk.svg"
+import gitIcon from "@/img/github.svg"
+import leetCodeIcon from "@/img/leetCode.svg"
 
 export default function Contact() {
 

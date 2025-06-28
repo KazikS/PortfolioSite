@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 
-export default function CharacterImage({ image }: { image: any }) {
+export default function CharacterImage({ image }: { image: StaticImageData }) {
     return (
         <Image
             src={image}

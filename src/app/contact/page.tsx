@@ -9,7 +9,6 @@ export default function Contact() {
 
     const gMail = 'kaziksabanaev.2@gmail.com';
     const tg = 'sabkazz';
-    const vkId = '413903207';
     const msgTheme = 'Вопрос с сайта-визитки';
     const msgBody = 'Привет! Я ознакомился с твоим сайтом, у меня есть вопрос или предложение!';
 

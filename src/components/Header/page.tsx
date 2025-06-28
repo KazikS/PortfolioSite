@@ -2,9 +2,9 @@
 export default function Header(){
     return (
         <header className='w-full flex items-center justify-center'>
-            <div className='p-30 pb-15 text-6xl'>
-                Привет! Меня зовут Казбек и я <h1>frontend-разработчик</h1>
-            </div>
+            <h1 className="p-8 pb-4 md:p-16 md:pb-8 text-3xl md:text-6xl">
+                Привет! Меня зовут Казбек и я frontend-разработчик
+            </h1>
         </header>
     )
 }

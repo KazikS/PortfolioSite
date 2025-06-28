@@ -20,7 +20,7 @@ export default function CharacterImage() {
     }
 
     return (
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col'>
             <InfoList title={personalData.title} items={personalData.items}/>
             <br />
             <InfoList title={techStak.title} items={techStak.items}/>

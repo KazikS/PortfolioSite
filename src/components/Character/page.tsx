@@ -5,7 +5,7 @@ import CharacterContent from "@/components/Character/CharacterContent";
 
 export default function CharacterPage() {
     return (
-        <main className='grid grid-cols-2 pl-20 gap-10 mb-25 mt-15'>
+        <main className='grid grid-cols-1 p-15 md:grid-cols-2 md:gap-4'>
             <CharacterImage image={avatar}/>
             <CharacterContent />
         </main>

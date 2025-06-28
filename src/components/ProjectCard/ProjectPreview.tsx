@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { StaticImageData } from 'next/image'
 
-export default function ProjectPreview({image}: { image: StaticImageData }) {
+export default function ProjectPreview({image}: { image: any }) {
     return (
         <div className='relativ aspect-video'>
             <Image

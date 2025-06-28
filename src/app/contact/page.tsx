@@ -15,7 +15,7 @@ export default function Contact() {
     return (
         <div className='flex flex-col justify-center p-10'>
             <h2 className='p-10 flex justify-center'>Свяжитесь со мной</h2>
-            <div className='flex justify-around items-center'>
+            <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-15 md:gap-4 m-auto justify-items-center'>
                 <ContactItem icon={gMailIcon} title={'Написать на GMail'}
                              link={`mailto:${encodeURIComponent(gMail)}?subject=${encodeURIComponent(msgTheme)}&body=${encodeURIComponent(msgBody)}`}/>
                 <ContactItem icon={tgIcon} title={'Написать в Telegram'}
@@ -27,7 +27,7 @@ export default function Contact() {
                 />
             </div>
             <h2 className='p-10 flex justify-center'>Мои профили на платформах</h2>
-            <div className='flex justify-around items-center'>
+            <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-15 md:gap-4 m-auto justify-items-center'>
                 <ContactItem icon={gitIcon} title={'GitHub'} link={'https://github.com/KazikS'} />
                 <ContactItem icon={leetCodeIcon} title={'LeetCode'} link={'https://leetcode.com/u/sabkazz/'} />
             </div>
